@@ -1,44 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;800&display=swap");
 h1 {
-  color: rgb(145, 117, 117);
+  color: #FFC26F;
   font-style: italic;
-  background-color: bisque;
+  background-color: #C38154;
+  padding: 10px;
 }
 .center {
   text-align: center;
 }
 .Myname {
-  color: rgb(145, 117, 117);
+  color: #FFC26F;
   padding: 10px;
 
   font-size: larger;
   font-style: italic;
-  background-color: bisque;
+  background-color: #C38154;
 }
 .data {
   font-size: small;
   text-align: center;
 }
 * {
-  background-color: beige;
+  background-color: #F9E0BB;
   font-family: "Montserrat Alternates", sans-serif;
   list-style: none;
   box-sizing: border-box;
 }
 p {
   font-size: small;
+  font-weight: bold;
 }
 h2 {
   text-align: center;
 }
 .border {
-  border: solid rgb(0, 0, 0);
+  border: solid #884A39;
   width: 350px;
   margin-left: auto;
   margin-right: auto;
   padding: 2pc;
   text-align: center;
-  background-color: white;
+  font-weight: bold;
+  background-color: #FFC26F;
 }
 #pic {
   height: 300px;
@@ -63,9 +66,12 @@ li a {
   color: rgb(31, 10, 10);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration:none;
+  font-weight: 900;
+
 }
 
 li a:hover {
-  background-color: rgb(191, 146, 146);
+  background-color: #FFC26F;
 }
+
