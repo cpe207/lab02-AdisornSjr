@@ -35,11 +35,11 @@ h2 {
 }
 .border {
   border: solid #884A39;
-  width: 350px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
   padding: 2pc;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   background-color: #FFC26F;
 }
