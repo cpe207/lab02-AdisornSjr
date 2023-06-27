@@ -29,7 +29,7 @@ a {
   text-decoration: none;
   float: center;
 }
-a:hover {
+a.l:hover {
   background-color: rgba(203, 203, 203, 0);
   font-size: larger;
   font-weight: bold;
