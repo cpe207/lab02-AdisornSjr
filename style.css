@@ -1,77 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;800&display=swap");
-h1 {
-  color: #FFC26F;
-  font-style: italic;
-  background-color: #C38154;
-  padding: 10px;
-}
+
 .center {
   text-align: center;
+  text-decoration: none;
 }
-.Myname {
-  color: #FFC26F;
-  padding: 10px;
-
-  font-size: larger;
+.title {
+  color: rgb(145, 117, 117);
+  font-size: x-large;
   font-style: italic;
-  background-color: #C38154;
 }
-.data {
+.message {
   font-size: small;
-  text-align: center;
+  max-width: 300px;
 }
+
 * {
-  background-color: #F9E0BB;
   font-family: "Montserrat Alternates", sans-serif;
   list-style: none;
   box-sizing: border-box;
-}
-p {
-  font-size: small;
-  font-weight: bold;
+  font-style: italic;
 }
 h2 {
   text-align: center;
 }
-.border {
-  border: solid #884A39;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2pc;
-  text-align: left;
-  font-weight: bold;
-  background-color: #FFC26F;
-}
-#pic {
-  height: 300px;
-  width: auto;
-}
-body {
-  font-family: "Montserrat Alternates", sans-serif;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-li {
+a {
+  text-decoration: none;
   float: center;
 }
-
-li a {
-  display: block;
-  color: rgb(31, 10, 10);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration:none;
-  font-weight: 900;
-
+a:hover {
+  background-color: rgba(203, 203, 203, 0);
+  font-size: larger;
+  font-weight: bold;
 }
-
-li a:hover {
-  background-color: #FFC26F;
+a:link {
+  text-decoration: none;
 }
-
+body {
+  background-image: url("");
+}
+.back {
+  position: relative;
+  isolation: isolate;
+}
+.back::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.2;
+  background-image: url("img/program.jpeg");
+  background-size: cover;
+}
+.back-1 {
+  position: relative;
+  isolation: isolate;
+}
+.back-1::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.2;
+  background-image: url("img/guitar.jpeg");
+  background-size: cover;
+}
+.back-2 {
+  position: relative;
+  isolation: isolate;
+}
+.back-2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.2;
+  background-image: url("img/vslight.png");
+  background-size: cover;
+}
+.back-3 {
+  position: relative;
+  isolation: isolate;
+}
+.back-3::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.2;
+  background-image: url("img/scratch.png");
+  background-size: cover;
+}
